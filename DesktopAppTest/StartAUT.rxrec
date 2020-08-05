@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4c394fae-4ce8-430c-a36c-9c0212e13656"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="DesktopAppTest">
+	</codegen>
+	<variables>
+		<var
+		id="60c7aeee-6dc7-4e15-afae-da06c5f89ec8"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\mrashid\Desktop\RxDemoApp.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="8667f870-5c6a-4b34-a092-5f76c88aa646"
+	name="DesktopAppTestRepository"
+	relativepath="DesktopAppTestRepository.rxrep">
+		<codegen
+		classname="DesktopAppTestRepository"
+		namespace="DesktopAppTest">
+		</codegen>
+		<rootfolder
+		id="867436f5-3985-4948-a01f-6970bc0a91b3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

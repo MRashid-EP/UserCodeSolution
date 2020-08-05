@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6edd943c-8bb3-4e38-810f-a7366449216c"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InsertName"
+	namespace="DesktopAppTest">
+	</codegen>
+	<variables>
+		<var
+		id="3286b13a-d6f5-49f9-8532-90cfc51fcba9"
+		name="varName">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="InsertName"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="InsertTheName"
+		namespace="DesktopAppTest"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="e74ff863-9fec-4011-9307-3fed1a9cb02a">
+				<argument
+				argname="textInfo"
+				id="4f4ffb1a-0b16-42a9-b4bc-fe9d557ffbaf">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="2e707e04-a9a3-42d4-9859-10a6d7c537b7"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="myName"
+				id="37b05ecb-48da-4a0a-b3b6-4f5be5f2ee57"
+				variable="varName">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="8667f870-5c6a-4b34-a092-5f76c88aa646"
+	name="DesktopAppTestRepository"
+	relativepath="DesktopAppTestRepository.rxrep">
+		<codegen
+		classname="DesktopAppTestRepository"
+		namespace="DesktopAppTest">
+		</codegen>
+		<rootfolder
+		id="867436f5-3985-4948-a01f-6970bc0a91b3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InsertName.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

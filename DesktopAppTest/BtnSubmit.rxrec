@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4738de44-9bab-4155-8b16-121d64405704"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BtnSubmit"
+	namespace="DesktopAppTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="BtnSubmit"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Mouse_Click_BtnSubmit"
+		namespace="DesktopAppTest"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="16301b8e-a4c4-428b-97f9-53ef0f543d32">
+				<argument
+				argname="buttonInfo"
+				id="635e9408-d57e-4234-b11b-5699d034c082">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="ba91cd16-ddeb-434c-9017-a3008cea45ba"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="8667f870-5c6a-4b34-a092-5f76c88aa646"
+	name="DesktopAppTestRepository"
+	relativepath="DesktopAppTestRepository.rxrep">
+		<codegen
+		classname="DesktopAppTestRepository"
+		namespace="DesktopAppTest">
+		</codegen>
+		<rootfolder
+		id="867436f5-3985-4948-a01f-6970bc0a91b3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BtnSubmit.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
